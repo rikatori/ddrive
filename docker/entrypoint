@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+cd /app && npm run migration:up
+node /app/bin/ddrive "$@"
